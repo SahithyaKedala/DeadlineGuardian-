@@ -26,14 +26,20 @@ Traditional task managers are passive—they just show lists and trigger alerts 
 ### 🤖 Smart Task Breakdown (Gemini-Powered)
 Starting is the hardest part. When you add a new project, **Google Gemini AI** acts as your project manager, automatically decomposing it into 4–6 manageable subtasks with realistic time estimates. No more writer's block or overwhelm.
 
+![Tasks Page](assets/screenshots/tasks.png)
+
 ### 📊 Real-Time Risk Engine
 Our custom risk engine continuously evaluates a **0–100 risk score** for every task. By factoring in deadline urgency, workload density, task complexity, your historical progress speed, and priority levels, the app categorizes tasks into three clear visual states:
 *   🟢 **SAFE** (0–40) – You're on track. Keep cruising.
 *   🟡 **WARNING** (41–70) – You need to pick up the pace.
 *   🔴 **CRITICAL** (71–100) – High risk of missing the deadline. Focus now!
 
+![Dashboard Overview](assets/screenshots/dashboard.png)
+
 ### 📅 Hands-Free AI Calendar Scheduling
 Planning your week shouldn't be another chore. **Gemini AI** assesses your tasks, matches them against your free calendar slots, prioritizes `CRITICAL` items first, and pushes optimized work blocks directly to your **Google Calendar**.
+
+![AI Calendar](assets/screenshots/calendar.png)
 
 ### 🔄 Judgment-Free Recovery Agent
 Missed a study or work session? Instead of giving up or feeling guilty, our **Gemini-powered Recovery Agent** instantly recalculates your schedule based on the remaining time, creating a fresh, motivating plan for the next day.
@@ -48,12 +54,17 @@ Need help brainstorming, adjusting a schedule, or just finding focus? Chat direc
 ### ⏱️ Pomodoro Focus Timer
 A beautiful circular countdown timer with custom presets (25, 45, 60, and 90 minutes). Completing a session automatically logs your focus hours and increments the task's progress by **+10%**. Focus sessions persist across page reloads.
 
+![Focus Timer](assets/screenshots/focus_timer.png)
+
 ### 📚 PDF & Text Academic Calendar Parser
 Got a syllabus or course schedule? Upload it as a **PDF, CSV, or TXT** file. The app automatically extracts dates, creates the events, and schedules structured reminders:
 *   **7 days before** (to start studying)
 *   **3 days before** (to review)
 *   **1 day before** (final checklist)
 *   **Day of** (no surprises!)
+
+![Timetable Import](assets/screenshots/timetable.png)
+
 
 ---
 
