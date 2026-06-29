@@ -47,6 +47,8 @@ Missed a study or work session? Instead of giving up or feeling guilty, our **Ge
 ### 💬 Instant AI Productivity Partner
 Need help brainstorming, adjusting a schedule, or just finding focus? Chat directly with the built-in productivity bot, powered directly by **Gemini 2.0 Flash Lite** for lightning-fast, context-aware responses.
 
+![AI Chat Page](assets/screenshots/ai_chat.png)
+
 ### ⏰ Late & Missed Task Protection
 *   **Urgent Alert**: If a task is due in under 30 minutes and you have completed less than half of it, you'll receive a prominent red warning.
 *   **Overdue Pulsing Badge**: Missed deadlines trigger an animated visual indicator and browser notification.
@@ -86,6 +88,9 @@ Got a syllabus or course schedule? Upload it as a **PDF, CSV, or TXT** file. The
 *   **Gemini 2.0 Flash Lite**: Handles rapid AI chat interactions directly from the client.
 *   **Gemini 1.5 Flash**: Orchestrates complex backend operations (task decomposition, risk recovery plans, and scheduling logic).
 *   **Firebase Auth**: Google Sign-In & Email/Password authentication.
+
+![Login Page](assets/screenshots/login.png)
+
 *   **Firebase Firestore**: Real-time synced tasks, calendar configurations, and RAG-based user profile memory.
 *   **Google Calendar API**: Synchronizes generated work blocks directly with your calendar.
 
