@@ -1,0 +1,130 @@
+.dashboard { max-width: 900px; }
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.page-header h1 { font-size: 26px; }
+.text-muted { color: var(--text-muted); font-size: 14px; margin-top: 4px; }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.stat-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stat-value { font-size: 24px; font-weight: 700; }
+.stat-label { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+.dashboard-bottom {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  align-items: start;
+}
+
+.risk-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  border-left: 3px solid var(--border);
+}
+
+.risk-border-CRITICAL { border-left-color: var(--critical); }
+.risk-border-WARNING { border-left-color: var(--warning); }
+.risk-border-SAFE { border-left-color: var(--safe); }
+
+.risk-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.risk-card-header h4 { font-size: 14px; }
+
+.risk-reason {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.risk-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-sm { font-size: 12px; padding: 4px 10px; }
+
+.gauge-card { text-align: center; }
+.gauge-card h3 { margin-bottom: 8px; }
+
+.gauge-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.gauge-value { font-size: 32px; font-weight: 700; color: var(--accent-light); }
+
+.accountability {
+  margin-top: 20px;
+  text-align: left;
+  background: var(--surface2);
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.accountability p {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: var(--text-muted);
+}
+
+.critical-warning {
+  color: var(--critical) !important;
+  font-weight: 600;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 40px;
+  color: var(--text-muted);
+}
+
+.page-loading {
+  padding: 60px;
+  text-align: center;
+  color: var(--text-muted);
+}
